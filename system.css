@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.container-1{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.item-1{
+  color: white;
+  padding: 10px;
+}
+.item-1:hover{
+  background-color: white;
+  color: black;
+}
+
+
+/* .container-2{
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  border-top: 100px purple;
+  
+}
+.item-2{
+  color: white;
+  padding: 10px;
+}
+.item-2:hover{
+  background-color: white;
+  color: black;
+}
+.div>.search-icon{
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+} */
+ .container-2{
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  border-top: 100px purple;
+  
+}
+.item-2{
+  color: white;
+  padding: 10px;
+}
+.item-2:hover{
+  background-color: white;
+  color: black;
+}
+.search-icon{
+  margin-left: auto;
+  /* text-align: end; */
+}
+.container-3{
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  
+}
+.item-3{
+  color: white;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.item-3:hover{
+  background-color: white;
+  color: black;
+}
+
+.bi{
+font-size: 20px;
+padding: 45px;
+
+}
+/* .container-4{
+    position: relative; */
+    /* background: url("./car.jpg") center/cover no-repeat; */
+    /* min-height: 50vh;
+    color: white;  
+    justify-content:flex-start;
+    align-items: start;
+}
+.Logo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue;
+    font-size: 60px;
+    justify-content:flex-start;
+    align-items: start;
+    text-align: start;
+}
+
+.COMING {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue;
+    font-size: 50px;
+    text-align: center;
+}
+.img1{
+    width:100%;
+    height: 550px;
+    margin-right: 0px;
+    z-index: 1000;
+    margin-bottom: 50px;
+
+}
+
+ */
+ .car {
+      background-image: url('./car.jpg');
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .center-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .center-content>h1 {
+      font-size 48px;
+      margin-bottom: 10px;
+    }
+
+    .line {
+      width: 100px;
+      height: 1px;
+      background-color: white;
+      margin: 0 auto 10px;
+    }
+
+    .days-left {
+      font-size: 18px;
+    }
+ 
